@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Tu peso en un lugar donde pesas menos</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/logotipo_tu_peso_en_otro_planeta.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section class="background">
+    <header>
+      <figure class="logotipo">
+        <a href="index.html">
+          <img src="images/logotipo_tu_peso_en_otro_planeta.png" alt="logotipo_tu_peso_en_otro_planeta" width="100">
+        </a>
+      </figure>
+      <span class="burguer-button icon-menu" id="burguer"></span>
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a href="#footer">Crea tu web</a>
+          </li>
+          <li>
+            <a href="#formulario">Contacto</a>
+          </li>
+          <li>
+            <a href="#footer">Nosotros</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="descripcion">
+      <hgroup>
+        <h1>
+          Tu Peso En <br>Otros Planetas
+        </h1>
+        <h3>
+          Nunca te has preguntado: <br> ¿Cuanto pesaría en otros planetas? 🙄🙄🙄 <br> Descubre cuanto pesas en Marte,
+          Júpiter,
+          Plutón y cualquier planeta <br>Pulsa el botón CALCULAR y descubre tu peso!
+        </h3>
+      </hgroup>
+      <a href="#pesa" class="myButton">Calcular</a>
+    </div>
+  </section>
+  <section class="container">
+    <div class="peso" id="pesa">
+      <label for="cajatxt">introduce tu peso aquí: </label>
+      <input type="number" placeholder='(Kg)' id="cajatxt" step="any" />
+      <!--step permite establecer un rango de intervalos en los que se puede mover el input, le decimos ninguno para que podamos introducir decimales-->
+      <a href="#planetas" id="boton" class="myButtonCalc">Calcular</a>
+    </div>
+    <div id="planetas">
+      <div class="planetas-items mercurio">
+        <label for="mercurio">
+          <h3>mercurio</h3>
+          <img src="images/mercurio.png" alt="planeta_mercurio_foto " width="100" height="100" title="Mercurio">
+          <p>tu peso es:</p>
+        </label>
+        <input type="text" size="7" id="mercurio">
+      </div>
+      <div class="planetas-items venus">
+        <label for="venus">
+          <h3>venus</h3>
+          <img src="images/venus.png" alt="planeta_venus_foto " width="100" height="100" title="Venus">
+          <p>tu peso es:</p>
+        </label>
+        <input type="text" size="7" id="venus">
+      </div>
+      <div class="planetas-items marte">
+        <label for="marte">
+          <h3>marte</h3>
+          <img src="images/marte.png" alt="planeta_marte_foto " width="100" height="100" title="Marte">
+          <p>tu peso es:</p>
+        </label>
+        <input type="text" size="7" id="marte">
+      </div>
+      <div class="planetas-items jupiter">
+        <label for="jupiter">
+          <h3>júpiter</h3>
+          <img src="images/jupiter.png" alt="planeta_jupiter_foto " width="100" height="100" title="Júpiter">
+          <p>tu peso es:</p>
+        </label>
+        <input type="text" size="7" id="jupiter">
+      </div>
+      <div class="planetas-items saturno">
+        <label for="saturno">
+          <h3>saturno</h3>
+          <img src="images/saturno.png" alt="planeta_saturno_foto " width="100" height="100" title="Saturno">
+          <p>tu peso es:</p>
+        </label>
+        <input type="text" size="7" id="saturno">
+      </div>
+      <div class="planetas-items urano">
+        <label for="urano">
+          <h3>urano</h3>
+          <img src="images/urano.png" alt="planeta_urano_foto " width="100" height="100" title="Urano">
+          <p>tu peso es:</p>
+        </label>
+        <input type="text" size="7" id="urano">
+      </div>
+      <div class="planetas-items neptuno">
+        <label for="neptuno">
+          <h3>neptuno</h3>
+          <img src="images/neptuno.png" alt="planeta_neptuno_foto " width="100" height="100" title="Neptuno">
+          <p>tu peso es:</p>
+        </label>
+        <input type="text" size="7" id="neptuno">
+      </div>
+      <div class="planetas-items pluton">
+        <label for="pluton">
+          <h3>plutón</h3>
+          <img src="images/pluton.png" alt="planeta_pluton_foto " width="100" height="100" alt="Plutón">
+          <p>tu peso es:</p>
+        </label>
+        <input type="text" size="7" id="pluton">
+      </div>
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="col1">
+      <h3>¿NECESITAS UNA WEB? MÁNDAME UN MENSAJE</h3>
+      <div class="redes-sociales">
+        <a href="https://www.instagram.com/joseguerraweb/" target="_blank">
+          <span class="personalizacion icon-instagram"></span>
+        </a>
+        <a href="https://www.facebook.com/Jose-Antonio-Guerra-Llamas-104541487057709/" target="_blank">
+          <span class="personalizacion icon-facebook"></span>
+        </a>
+        <a href="https://www.twitter.com/joseguerraweb/" target="_blank">
+          <span class="personalizacion icon-twitter"></span>
+        </a>
+        <a href="https://github.com/joseguerraweb" target="_blank">
+          <span class="personalizacion icon-github"></span>
+        </a>
+        <a href="https://www.behance.net/contactojo4830" target="_blank">
+          <span class="personalizacion icon-behance"></span>
+        </a>
+        <a href="https://codepen.io/joseguerraweb/" target="_blank">
+          <span class="personalizacion icon-codepen"></span>
+        </a>
+        <a href="https://t.me/joseguerraweb" target="_blank">
+          <span class="personalizacion icon-telegram"></span>
+        </a>
+        <p>
+          Copyright © 2018 Jose Guerra WEB - Aviso Legal, política de privacidad y de afiliación
+          <br>Web diseñada y desarrollada por Jose Guerra WEB @joseguerraweb
+        </p>
+      </div>
+    </div>
+    <div class="col2">
+      <form class="formulario" id="formulario">
+        <legend>Formulario de Contacto</legend>
+        <div class="margin input1">
+          <label for="nombre">Nombre</label>
+          <input type="text" required id="nombre" name="nombre">
+        </div>
+        <div class="margin input2">
+          <label for="email">E-mail</label>
+          <input type="email" required id="email" name="email"> </div>
+        <div class="margin">
+          <label for="mujer">
+            <input type="radio" id="mujer" checked name="sexo" value="mujer"> Mujer
+          </label>
+          <label for="hombre">
+            <input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+          </label>
+        </div>
+        <div class="margin margin-style">
+          <label for="asunto">Asunto</label>
+          <textarea name="asunto" id="asunto" rows="7" cols="30"></textarea>
+          <input type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+  </footer>
+  <script src="tu_peso_en_otro_planeta.js">
+  </script>
+</body>
+
+</html>
